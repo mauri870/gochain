@@ -1,0 +1,33 @@
+hash: 87f1f2bc086218937c5c93e224f21ab815a7e8b4b71eef1529d0af50d29f4306
+updated: 2017-03-05T15:40:26.978391947-03:00
+imports:
+- name: github.com/labstack/echo
+  version: 948d607539e92f3974d8f24951c8975d7342e24a
+- name: github.com/labstack/gommon
+  version: e8995fb26e646187d33cff439b18609cfba23088
+  subpackages:
+  - color
+  - log
+- name: github.com/mattn/go-colorable
+  version: acb9493f2794fd0f820de7a27a217dafbb1b65ea
+- name: github.com/mattn/go-isatty
+  version: 9622e0cc9d8f9be434ca605520ff9a16808fee47
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 40541ccb1c6e64c947ed6f606b8a6cb4b67d7436
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/sys
+  version: e48874b42435b4347fc52bdee0424a52abc974d7
+  subpackages:
+  - unix
+testImports: []
